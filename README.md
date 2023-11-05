@@ -44,3 +44,12 @@ Dynamic binding means that the code associated with a given procedure call is no
 
 ### Message Passing
 It is a form of communication used in object-oriented programming as well as parallel programming. Objects communicate with one another by sending and receiving information to each other. A message for an object is a request for execution of a procedure and therefore will invoke a function in the receiving object that generates the desired results. Message passing involves specifying the name of the object, the name of the function, and the information to be sent.
+
+### Exception Handling
+An exception is termed as an unwanted error that arises during the runtime of the program. The practice of separating the anomaly-causing program/code from the rest of the program/code is known as Exception Handling. 
+
+### File Handling
+File handling is used to store data permanently in a computer. Using file handling we can store our data in secondary memory (Hard disk). The I/O system of C++ contains a set of classes which define the file handling methods. These include ifstream, ofstream and fstream classes. These classes are derived from fstream and from the corresponding iostream class.
+
+### Dynamic Memory Allocation (Reasons and Deletion of memory assigned)
+Memory has to be allocated to the variables that we create, so that actual variables can be brought to existence. When we declare variables, we actually are preparing all the variables that will be used, so that the compiler knows that the variable being used is actually an important part of the program that the user wants and not just a rogue symbol floating around.The mechanism by which storage/memory/cells can be allocated to variables during the run time is called Dynamic Memory Allocation. Dynamically created lists insertions and deletions can be done very easily just by the manipulation of addresses whereas in case of statically allocated memory insertions and deletions lead to more movements and wastage of memory. When we want data structures without any upper limit of memory space. When we do not know how much amount of memory would be needed for the program beforehand. Static memory allocation can only be done on stack whereas dynamic memory allocation can be done on both stack and heap. An example of dynamic allocation to be done on the stack is recursion. While allocating memory on heap we need to delete the memory manually as memory is not freed(deallocated) by the compiler itself even if the scope of allocated memory finishes(as in case of stack).
