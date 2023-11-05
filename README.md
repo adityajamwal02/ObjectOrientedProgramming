@@ -26,8 +26,21 @@ The capability of a class to derive properties and characteristics from another 
 
 #### Single Inheritence <br>
 #### Mulitple Inheritence <br> 
-#### Multilevel Inheritence
+#### Multilevel Inheritence <br>
+#### Hierarchical Inheritence <br>
+#### Hybrid Inheritence <br>
   
-Polymorphism
-Dynamic Binding
-Message Passing
+### Polymorphism
+The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form. 
+
+#### Compile Time Polymorphism <br>
+Function Overloading and Operator Overloading
+
+#### Run Time Polymorphism <br>
+Virtual Function
+
+### Dynamic Binding
+Dynamic binding means that the code associated with a given procedure call is not known until the time of the call at run time.
+
+### Message Passing
+It is a form of communication used in object-oriented programming as well as parallel programming. Objects communicate with one another by sending and receiving information to each other. A message for an object is a request for execution of a procedure and therefore will invoke a function in the receiving object that generates the desired results. Message passing involves specifying the name of the object, the name of the function, and the information to be sent.
