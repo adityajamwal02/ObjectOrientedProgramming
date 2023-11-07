@@ -25,10 +25,18 @@ Encapsulation is defined as the wrapping up of data under a single unit. It is t
 The capability of a class to derive properties and characteristics from another class is called Inheritance. When we write a class, we inherit properties from other classes. So when we create a class, we do not need to write all the properties and functions again and again, as these can be inherited from another class that possesses it. Inheritance allows the user to reuse the code whenever possible and reduce its redundancy.
 
 #### Single Inheritence <br>
+Single inheritance is one type of inheritance in which the derived class inherits only one base class. It provides reusability by allowing the derived class to inherit the features of the base class using objects.
 #### Mulitple Inheritence <br> 
+Multiple Inheritance is a feature of C++ where a class can inherit from more than one classes.  The constructors of inherited classes are called in the same order in which they are inherited.
+
 #### Multilevel Inheritence <br>
+A class can also be derived from one class, which is already derived from another class
+
 #### Hierarchical Inheritence <br>
+In Hierarchical inheritance, more than one sub-class inherits the property of a single base class. There is one base class and multiple derived classes. Several other classes inherit the derived classes as well. Hierarchical structures thus form a tree-like structure.
+
 #### Hybrid Inheritence <br>
+The process of combining more than one type of Inheritance together while deriving subclasses in a program is called a Hybrid Inheritance. Multiple Inheritance, Single Inheritance, and Hierarchical Inheritances are combined together.
   
 ### Polymorphism
 The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form. 
