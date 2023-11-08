@@ -42,7 +42,12 @@ The process of combining more than one type of Inheritance together while derivi
 The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form. 
 
 #### Compile Time Polymorphism <br>
-Function Overloading and Operator Overloading
+##### 1) Function Overloading <br>
+When there are multiple functions with the same name but different parameters, then the functions are said to be overloaded, hence this is known as Function Overloading. Functions can be overloaded by changing the number of arguments or/and changing the type of arguments.
+<br>
+##### 2) Operator Overloading <br>
+we can make use of the addition operator (+) for string class to concatenate two strings. We know that the task of this operator is to add two operands. So a single operator ‘+’, when placed between integer operands, adds them and when placed between string operands, concatenates them. 
+<br>
 
 #### Run Time Polymorphism <br>
 Virtual Function
